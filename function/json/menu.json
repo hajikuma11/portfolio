@@ -40,12 +40,7 @@
                         "flex": 0,
                         "offsetTop": "-2px",
                         "decoration": "underline",
-                        "size": "xl",
-                        "action": {
-                          "type": "postback",
-                          "label": "req",
-                          "data": "profile"
-                        }
+                        "size": "xl"
                       },
                       {
                         "type": "filler"
@@ -68,20 +63,24 @@
                   "label": "req",
                   "data": "profile"
                 },
-                "backgroundColor": "#00000022"
+                "backgroundColor": "#00000033"
               }
             ],
             "position": "absolute",
             "offsetBottom": "0px",
             "offsetStart": "0px",
             "offsetEnd": "0px",
-            "backgroundColor": "#346449aa",
             "paddingAll": "20px",
             "paddingTop": "18px"
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#78B994",
+        "action": {
+          "type": "postback",
+          "label": "req",
+          "data": "profile"
+        }
       }
     },
     {
@@ -123,12 +122,7 @@
                         "flex": 0,
                         "offsetTop": "-2px",
                         "decoration": "underline",
-                        "size": "xl",
-                        "action": {
-                          "type": "postback",
-                          "label": "req",
-                          "data": "skill"
-                        }
+                        "size": "xl"
                       },
                       {
                         "type": "filler"
@@ -149,7 +143,7 @@
                 "action": {
                   "type": "postback",
                   "label": "req",
-                  "data": "skills"
+                  "data": "skill"
                 },
                 "backgroundColor": "#00000022"
               }
@@ -158,13 +152,17 @@
             "offsetBottom": "0px",
             "offsetStart": "0px",
             "offsetEnd": "0px",
-            "backgroundColor": "#346449aa",
             "paddingAll": "20px",
             "paddingTop": "18px"
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#78B994",
+        "action": {
+          "type": "postback",
+          "label": "req",
+          "data": "skill"
+        }
       }
     },
     {
@@ -232,22 +230,26 @@
                 "action": {
                   "type": "postback",
                   "label": "req",
-                  "data": "profile"
+                  "data": "works"
                 },
-                "backgroundColor": "#00000022"
+                "backgroundColor": "#00000033"
               }
             ],
             "position": "absolute",
             "offsetBottom": "0px",
             "offsetStart": "0px",
             "offsetEnd": "0px",
-            "backgroundColor": "#346449aa",
             "paddingAll": "20px",
             "paddingTop": "18px"
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#78B994",
+        "action": {
+          "type": "postback",
+          "label": "req",
+          "data": "works"
+        }
       }
     }
   ]
