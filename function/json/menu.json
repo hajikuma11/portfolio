@@ -10,7 +10,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/portfolio/type.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/type.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -92,7 +92,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/portfolio/track.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/track.jpg",
             "size": "full",
             "aspectMode": "cover",
             "aspectRatio": "3:4"
@@ -174,7 +174,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/portfolio/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
             "aspectRatio": "3:4",
             "size": "full",
             "aspectMode": "cover"
