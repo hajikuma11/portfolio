@@ -36,6 +36,11 @@ if (file_exists(__DIR__."/function/$msg.php")) {
     'type' => 'text',
     'text' => $msg
   ];
+  
+  $res = [
+    'replyToken' => $token_reply,
+    'messages' => [$txt]
+  ];
 }
 
 //レスポンスデータ
@@ -43,10 +48,7 @@ if (file_exists(__DIR__."/function/$msg.php")) {
 //   'type' => 'text',
 //   'text' => $msg
 // ];
-$res = [
-  'replyToken' => $token_reply,
-  'messages' => [$txt]
-];
+
 
 //送信
 $ch = curl_init('https://api.line.me/v2/bot/message/reply');
