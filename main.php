@@ -30,7 +30,7 @@ $token_reply = $obj_msgs->{"events"}[0]->{"replyToken"};
 if (file_exists(__DIR__."/function/$msg.php")) {
   require __DIR__."/function/$msg.php";
 } elseif ($type_event == "follow") {
-  require __DIR__."/function/menu.php";
+  require __DIR__."/function/aboutme.php";
 } else {
   $txt = [
     'type' => 'text',
