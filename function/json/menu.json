@@ -35,7 +35,7 @@
                       },
                       {
                         "type": "text",
-                        "text": "Profile",
+                        "text": "About me",
                         "color": "#ffffff",
                         "flex": 0,
                         "offsetTop": "-2px",
@@ -61,7 +61,7 @@
                 "action": {
                   "type": "postback",
                   "label": "req",
-                  "data": "profile"
+                  "data": "aboutme"
                 },
                 "backgroundColor": "#00000033"
               }
@@ -79,7 +79,7 @@
         "action": {
           "type": "postback",
           "label": "req",
-          "data": "profile"
+          "data": "aboutme"
         }
       }
     },

@@ -1,5 +1,5 @@
 <?php
 $txt = [
     'type' => 'text',
-    'text' => 'this is profile.php'
+    'text' => 'this is about.php'
 ];
