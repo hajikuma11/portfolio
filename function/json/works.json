@@ -86,7 +86,7 @@
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・ポートフォリオ"
+                    "text": "・Oity"
                   },
                   {
                     "type": "text",
@@ -95,7 +95,7 @@
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・Oity"
+                    "text": "・ポートフォリオ"
                   },
                   {
                     "type": "text",
@@ -171,8 +171,8 @@
         "borderColor": "#009945",
         "action": {
           "type": "uri",
-          "label": "add Oity",
-          "uri": "https://lin.ee/vIty5Qj"
+          "label": "contact",
+          "uri": "https://portfolio-liff.herokuapp.com/"
         }
       }
     },
