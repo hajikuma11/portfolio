@@ -150,6 +150,30 @@
         ],
         "paddingAll": "0px",
         "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "お問い合わせはこちら",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff",
+            "decoration": "underline"
+          }
+        ],
+        "backgroundColor": "#00b350",
+        "borderWidth": "5px",
+        "borderColor": "#009945",
+        "action": {
+          "type": "uri",
+          "label": "add Oity",
+          "uri": "https://lin.ee/vIty5Qj"
+        }
       }
     },
     {

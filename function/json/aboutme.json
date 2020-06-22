@@ -186,10 +186,6 @@
                       {
                         "type": "span",
                         "text": "カメラ片手に散歩をする事が好き。"
-                      },
-                      {
-                        "type": "span",
-                        "text": "→"
                       }
                     ]
                   },
@@ -372,7 +368,7 @@
                 "cornerRadius": "17px",
                 "backgroundColor": "#00b350",
                 "margin": "sm",
-                "borderWidth": "3px",
+                "borderWidth": "5px",
                 "borderColor": "#009945",
                 "action": {
                   "type": "postback",
