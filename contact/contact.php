@@ -49,7 +49,7 @@ $msg = $_SESSION["msg"];
   label {
     /* すべてのラベルを同じサイズにして、きちんと揃える */
     display: inline-block;
-    width: 90px;
+    width: 35%;
     text-align: left;
   }
 
@@ -59,7 +59,7 @@ $msg = $_SESSION["msg"];
     font: 1em sans-serif;
 
     /* すべてのテキストフィールドを同じサイズにする */
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
 
     /* テキストフィールドのボーダーの外見を同一にする */
@@ -81,14 +81,7 @@ $msg = $_SESSION["msg"];
   }
 
   .button {
-    /* ボタンを他のテキストフィールドと同じ場所に置く */
-    padding-left: 90px; /* label 要素と同じサイズ */
-  }
-
-  button {
-    /* このマージンは、ラベルとテキストフィールドの間のスペースと
-      おおよそ同じスペースを表す */
-    margin-left: .5em;
+    text-align : center;
   }
 
   </style>
