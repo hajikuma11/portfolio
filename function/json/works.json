@@ -10,7 +10,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -35,12 +35,13 @@
                       },
                       {
                         "type": "text",
-                        "text": "Work",
-                        "color": "#ffffff",
+                        "text": "作品",
+                        "color": "#efffff",
                         "flex": 0,
                         "size": "xxl",
                         "decoration": "underline",
-                        "offsetTop": "-5px"
+                        "offsetTop": "-5px",
+                        "weight": "bold"
                       },
                       {
                         "type": "filler"
@@ -56,9 +57,9 @@
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#004d22cc",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderColor": "#004d22cc",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
               },
               {
                 "type": "separator",
@@ -71,7 +72,7 @@
                 "contents": [
                   {
                     "type": "text",
-                    "text": "一覧",
+                    "text": "作品一覧",
                     "color": "#ffffff",
                     "size": "xxl",
                     "flex": 0,
@@ -104,7 +105,7 @@
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・オープンキャンパス企画"
+                    "text": "・定期通知BOT"
                   },
                   {
                     "type": "text",
@@ -113,7 +114,7 @@
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・定期通知BOT"
+                    "text": "・オープンキャンパス企画"
                   },
                   {
                     "type": "text",
@@ -185,7 +186,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -211,10 +212,10 @@
                       {
                         "type": "text",
                         "text": "ポートフォリオ",
-                        "color": "#ffffff",
+                        "color": "#efffff",
                         "flex": 0,
-                        "size": "xl",
-                        "decoration": "underline"
+                        "size": "xxl",
+                        "offsetTop": "-5px"
                       },
                       {
                         "type": "filler"
@@ -230,14 +231,9 @@
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#004d22cc",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
-              },
-              {
-                "type": "separator",
-                "margin": "xl",
-                "color": "#00000000"
+                "borderColor": "#004d22cc",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
               },
               {
                 "type": "box",
@@ -345,7 +341,8 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderWidth": "1px",
+                "margin": "md"
               },
               {
                 "type": "box",
@@ -382,7 +379,15 @@
                           },
                           {
                             "type": "span",
-                            "text": "UIデザイン"
+                            "text": "HTML/CSS"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "LINE Notify"
                           }
                         ],
                         "color": "#ffffff",
@@ -406,7 +411,7 @@
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "margin": "xs"
+                "margin": "sm"
               }
             ],
             "position": "absolute",
@@ -453,7 +458,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -479,11 +484,10 @@
                       {
                         "type": "text",
                         "text": "Oity",
-                        "color": "#ffffff",
+                        "color": "#efffff",
                         "flex": 0,
                         "size": "xxl",
-                        "offsetTop": "-5px",
-                        "decoration": "underline"
+                        "offsetTop": "-5px"
                       },
                       {
                         "type": "filler"
@@ -499,14 +503,9 @@
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#004d22cc",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
-              },
-              {
-                "type": "separator",
-                "margin": "xl",
-                "color": "#00000000"
+                "borderColor": "#004d22cc",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
               },
               {
                 "type": "box",
@@ -614,7 +613,8 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderWidth": "1px",
+                "margin": "md"
               },
               {
                 "type": "box",
@@ -679,7 +679,7 @@
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "margin": "xs"
+                "margin": "sm"
               }
             ],
             "position": "absolute",
@@ -725,273 +725,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "filler"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                      {
-                        "type": "filler"
-                      },
-                      {
-                        "type": "text",
-                        "text": "オープンキャンパス企画",
-                        "color": "#ffffff",
-                        "flex": 0,
-                        "size": "xl",
-                        "decoration": "underline"
-                      },
-                      {
-                        "type": "filler"
-                      }
-                    ],
-                    "spacing": "sm"
-                  },
-                  {
-                    "type": "filler"
-                  }
-                ],
-                "cornerRadius": "4px",
-                "spacing": "sm",
-                "margin": "lg",
-                "height": "40px",
-                "backgroundColor": "#004d22cc",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
-              },
-              {
-                "type": "separator",
-                "margin": "xl",
-                "color": "#00000000"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [
-                          {
-                            "type": "image",
-                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc_icon.png",
-                            "aspectRatio": "1:1",
-                            "size": "xxl",
-                            "flex": 0,
-                            "aspectMode": "fit"
-                          },
-                          {
-                            "type": "image",
-                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc.png",
-                            "flex": 0,
-                            "margin": "sm",
-                            "aspectRatio": "3:4",
-                            "size": "xl",
-                            "aspectMode": "fit"
-                          }
-                        ],
-                        "paddingAll": "5px",
-                        "width": "100px"
-                      },
-                      {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [
-                          {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                              {
-                                "type": "spacer",
-                                "size": "lg"
-                              },
-                              {
-                                "type": "separator"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "flex": 0,
-                                "text": "シンプルで",
-                                "wrap": true,
-                                "weight": "bold",
-                                "align": "center"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "flex": 0,
-                                "text": "楽しい",
-                                "wrap": true,
-                                "weight": "bold",
-                                "align": "center"
-                              },
-                              {
-                                "type": "separator"
-                              },
-                              {
-                                "type": "spacer",
-                                "size": "lg"
-                              }
-                            ],
-                            "spacing": "xs"
-                          },
-                          {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                              {
-                                "type": "filler"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "text": "オープンキャンパスのクイズ企画のために作成したBOTです。時間によって違うクイズのヒントを表示してくれます。６００人以上の方に利用していただきました。",
-                                "wrap": true,
-                                "gravity": "top"
-                              },
-                              {
-                                "type": "filler"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "spacer"
-                  },
-                  {
-                    "type": "text",
-                    "color": "#ffffff",
-                    "size": "lg",
-                    "flex": 0,
-                    "text": "Skill",
-                    "wrap": true,
-                    "weight": "bold",
-                    "align": "center"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [
-                      {
-                        "type": "text",
-                        "text": "hello, world",
-                        "contents": [
-                          {
-                            "type": "span",
-                            "text": "PHP"
-                          },
-                          {
-                            "type": "span",
-                            "text": ", "
-                          },
-                          {
-                            "type": "span",
-                            "text": "LINE MessagingAPI"
-                          },
-                          {
-                            "type": "span",
-                            "text": ", "
-                          }
-                        ],
-                        "color": "#ffffff",
-                        "wrap": true,
-                        "offsetStart": "3px"
-                      },
-                      {
-                        "type": "text",
-                        "text": "UIデザイン",
-                        "color": "#ffffff",
-                        "wrap": true,
-                        "offsetStart": "3px"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer"
-                  }
-                ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "margin": "xs"
-              }
-            ],
-            "position": "absolute",
-            "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "paddingTop": "18px",
-            "paddingAll": "5px"
-          }
-        ],
-        "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "BOTは非公開です。",
-            "size": "xl",
-            "weight": "bold",
-            "align": "center",
-            "gravity": "bottom",
-            "color": "#ffffff"
-          }
-        ],
-        "backgroundColor": "#CCCCCC",
-        "borderWidth": "5px",
-        "borderColor": "#7F7F7F"
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "mega",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -1017,10 +751,10 @@
                       {
                         "type": "text",
                         "text": "定期通知BOT",
-                        "color": "#ffffff",
+                        "color": "#efffff",
                         "flex": 0,
-                        "size": "xl",
-                        "decoration": "underline"
+                        "size": "xxl",
+                        "offsetTop": "-5px"
                       },
                       {
                         "type": "filler"
@@ -1036,14 +770,9 @@
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#004d22cc",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
-              },
-              {
-                "type": "separator",
-                "margin": "xl",
-                "color": "#00000000"
+                "borderColor": "#004d22cc",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
               },
               {
                 "type": "box",
@@ -1151,7 +880,8 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderWidth": "1px",
+                "margin": "md"
               },
               {
                 "type": "box",
@@ -1212,7 +942,7 @@
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "margin": "xs"
+                "margin": "sm"
               }
             ],
             "position": "absolute",
@@ -1248,6 +978,267 @@
           "label": "action",
           "uri": "https://twitter.com/Oity_OIT"
         }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "オープンキャンパス企画",
+                        "color": "#efffff",
+                        "flex": 0,
+                        "size": "xl"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "borderColor": "#004d22cc",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc_icon.png",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "シンプルで",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "楽しい",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              }
+                            ],
+                            "spacing": "xs"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "オープンキャンパスのクイズ企画のために作成したBOTです。時間によって違うクイズのヒントを表示してくれます。６００人以上の方に利用していただきました。",
+                                "wrap": true,
+                                "gravity": "top"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "md"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "LINE MessagingAPI"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      },
+                      {
+                        "type": "text",
+                        "text": "UIデザイン",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "sm"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "BOTは非公開です。",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff"
+          }
+        ],
+        "backgroundColor": "#CCCCCC",
+        "borderWidth": "5px",
+        "borderColor": "#7F7F7F"
       }
     }
   ]
