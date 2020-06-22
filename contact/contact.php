@@ -33,6 +33,7 @@ $msg = $_SESSION["msg"];
     border: 1px solid #CCC;
     border-radius: 1em;
     background-color: #ffffff;
+    margin-top: 1em;
   }
 
   ul {
@@ -89,11 +90,11 @@ $msg = $_SESSION["msg"];
       おおよそ同じスペースを表す */
     margin-left: .5em;
   }
+
   </style>
 </head>
 <body>
   <h1>Contact</h1>
-  <p>お問い合わせはこちらからお願い致します。</p>
   <form action="confirm.php" method="post">
     <ul>
       <li>
