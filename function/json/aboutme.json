@@ -338,7 +338,8 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderWidth": "1px",
+                "paddingAll": "5px"
               },
               {
                 "type": "separator",
@@ -368,9 +369,9 @@
                   }
                 ],
                 "position": "relative",
-                "cornerRadius": "20px",
+                "cornerRadius": "17px",
                 "backgroundColor": "#00b350",
-                "margin": "md",
+                "margin": "sm",
                 "borderWidth": "3px",
                 "borderColor": "#009945",
                 "action": {
@@ -383,8 +384,7 @@
             "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
-            "paddingTop": "18px",
-            "paddingAll": "5px"
+            "paddingTop": "18px"
           }
         ],
         "paddingAll": "0px",
