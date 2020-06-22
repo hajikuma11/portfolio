@@ -35,6 +35,274 @@
                       },
                       {
                         "type": "text",
+                        "text": "ポートフォリオ",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "size": "xl",
+                        "decoration": "underline"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "backgroundColor": "#004d22cc",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "separator",
+                "margin": "xl",
+                "color": "#00000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/port_icon.jpg",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/port.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "自分を",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "知ってもらう",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              }
+                            ],
+                            "spacing": "xs"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "LINEを持っている人なら見ることができ、他の人にオススメすることもできるので、LINEでポートフォリオを作ってみました。",
+                                "wrap": true,
+                                "gravity": "top"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "UIデザイン"
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      },
+                      {
+                        "type": "text",
+                        "text": "LINE MessagingAPI",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "xs"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "他の人にオススメする",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff",
+            "decoration": "underline"
+          }
+        ],
+        "backgroundColor": "#00b350",
+        "borderWidth": "5px",
+        "borderColor": "#009945",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://line.me/R/nv/recommendOA/@442cgniu"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
                         "text": "Work",
                         "color": "#ffffff",
                         "flex": 0,
@@ -162,7 +430,7 @@
             "weight": "bold",
             "align": "center",
             "gravity": "bottom",
-            "color": "#ffffff",
+            "color": "#3232FF",
             "decoration": "underline"
           }
         ],
@@ -303,7 +571,7 @@
                                 "color": "#ffffff",
                                 "size": "md",
                                 "flex": 0,
-                                "text": "サポートするBOTです。",
+                                "text": "サポート",
                                 "wrap": true,
                                 "weight": "bold",
                                 "align": "center"
@@ -574,7 +842,7 @@
                                 "color": "#ffffff",
                                 "size": "md",
                                 "flex": 0,
-                                "text": "楽しいBOTです。",
+                                "text": "楽しい",
                                 "wrap": true,
                                 "weight": "bold",
                                 "align": "center"
