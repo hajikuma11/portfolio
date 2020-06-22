@@ -1,9 +1,6 @@
 <?php
 session_start();
-$_SESSION["name"] = '';
-$_SESSION["mail"] = '';
-$_SESSION["title"] = '';
-$_SESSION["msg"] = '';
+session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="en">

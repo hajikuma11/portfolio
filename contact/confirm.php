@@ -27,6 +27,7 @@ $_SESSION["msg"] = $_POST['user_message'];
 </head>
 <body>
   <h1>Contact</h1>
+  <h2><?php echo $_SESSION["flag"] ?></h2>
   <form method="post" action="posted.php">
   <div class="element">
     <label>氏名</label>
