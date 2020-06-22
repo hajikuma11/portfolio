@@ -229,9 +229,6 @@
                         "layout": "vertical",
                         "contents": [
                           {
-                            "type": "filler"
-                          },
-                          {
                             "type": "image",
                             "url": "https://oity.sakura.ne.jp/hajikuma/images/oity_icon.png",
                             "aspectRatio": "1:1",
@@ -247,9 +244,6 @@
                             "aspectRatio": "3:4",
                             "size": "xl",
                             "aspectMode": "fit"
-                          },
-                          {
-                            "type": "filler"
                           }
                         ],
                         "paddingAll": "5px",
@@ -264,7 +258,8 @@
                             "layout": "vertical",
                             "contents": [
                               {
-                                "type": "filler"
+                                "type": "spacer",
+                                "size": "lg"
                               },
                               {
                                 "type": "separator"
@@ -293,10 +288,11 @@
                                 "type": "separator"
                               },
                               {
-                                "type": "filler"
+                                "type": "spacer",
+                                "size": "lg"
                               }
                             ],
-                            "height": "70px"
+                            "spacing": "xs"
                           },
                           {
                             "type": "box",
@@ -310,13 +306,13 @@
                                 "color": "#ffffff",
                                 "size": "md",
                                 "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。時刻表や天気予報を取得できます。",
-                                "wrap": true
+                                "wrap": true,
+                                "gravity": "top"
                               },
                               {
                                 "type": "filler"
                               }
-                            ],
-                            "height": "160px"
+                            ]
                           }
                         ]
                       }
@@ -326,22 +322,19 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "height": "230px"
-              },
-              {
-                "type": "separator",
-                "margin": "sm",
-                "color": "#00000000"
+                "borderWidth": "1px"
               },
               {
                 "type": "box",
                 "layout": "vertical",
                 "contents": [
                   {
+                    "type": "spacer"
+                  },
+                  {
                     "type": "text",
                     "color": "#ffffff",
-                    "size": "md",
+                    "size": "lg",
                     "flex": 0,
                     "text": "Skill",
                     "wrap": true,
@@ -349,43 +342,52 @@
                     "align": "center"
                   },
                   {
-                    "type": "text",
-                    "text": "hello, world",
+                    "type": "box",
+                    "layout": "vertical",
                     "contents": [
                       {
-                        "type": "span",
-                        "text": "PHP"
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "Webスクレイピング"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
                       },
                       {
-                        "type": "span",
-                        "text": ", "
-                      },
-                      {
-                        "type": "span",
-                        "text": "Webスクレイピング"
-                      },
-                      {
-                        "type": "span",
-                        "text": ", "
+                        "type": "text",
+                        "text": "LINE MessagingAPI, UIデザイン",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
                       }
-                    ],
-                    "color": "#ffffff",
-                    "wrap": true,
-                    "offsetStart": "3px"
+                    ]
                   },
                   {
-                    "type": "text",
-                    "text": "LINE MessagingAPI, UIデザイン",
-                    "color": "#ffffff",
-                    "wrap": true,
-                    "offsetStart": "3px"
+                    "type": "spacer"
                   }
                 ],
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "margin": "md"
+                "margin": "xs"
               }
             ],
             "position": "absolute",
@@ -414,7 +416,278 @@
         ],
         "backgroundColor": "#00b350",
         "borderWidth": "5px",
-        "borderColor": "#009945"
+        "borderColor": "#009945",
+        "action": {
+          "type": "uri",
+          "label": "add Oity",
+          "uri": "https://lin.ee/vIty5Qj"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "オープンキャンパス企画",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "size": "xl",
+                        "decoration": "underline"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "backgroundColor": "#004d22cc",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "separator",
+                "margin": "xl",
+                "color": "#00000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc_icon.png",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oc.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "シンプルで",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "楽しいBOTです。",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              }
+                            ],
+                            "spacing": "xs"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "オープンキャンパスのクイズ企画のために作成したBOTです。時間によって違うクイズのヒントを表示してくれます。６００人以上の方に利用していただきました。",
+                                "wrap": true,
+                                "gravity": "top"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "LINE MessagingAPI"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      },
+                      {
+                        "type": "text",
+                        "text": "UIデザイン",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "xs"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "BOTは非公開です。",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff"
+          }
+        ],
+        "backgroundColor": "#CCCCCC",
+        "borderWidth": "5px",
+        "borderColor": "#7F7F7F"
       }
     }
   ]
