@@ -177,12 +177,21 @@
                   },
                   {
                     "type": "text",
-                    "text": "カメラ片手に散歩をする事が好き。",
                     "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "wrap": true,
-                    "offsetStart": "sm"
+                    "offsetStart": "sm",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "text": "カメラ片手に散歩をする事が好き。"
+                      },
+                      {
+                        "type": "span",
+                        "text": "→"
+                      }
+                    ]
                   },
                   {
                     "type": "spacer"
@@ -363,7 +372,12 @@
                 "backgroundColor": "#00b350",
                 "margin": "md",
                 "borderWidth": "3px",
-                "borderColor": "#009945"
+                "borderColor": "#009945",
+                "action": {
+                  "type": "postback",
+                  "label": "req",
+                  "data": "works"
+                }
               }
             ],
             "position": "absolute",
