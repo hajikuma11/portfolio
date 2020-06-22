@@ -10,7 +10,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/image/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
@@ -56,7 +56,7 @@
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#004d22cc",
+                "backgroundColor": "#7F3B00",
                 "borderColor": "#00331755",
                 "borderWidth": "1px"
               },
@@ -219,7 +219,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "url": "https://oity.sakura.ne.jp/image/beta.jpg",
             "aspectMode": "cover",
             "aspectRatio": "3:4",
             "size": "full"
