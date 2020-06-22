@@ -132,7 +132,8 @@
                 "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
                 "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderWidth": "1px",
+                "height": "230px"
               },
               {
                 "type": "separator",
@@ -148,7 +149,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#CCAD7E"
       }
     },
     {
@@ -189,7 +190,8 @@
                         "color": "#ffffff",
                         "flex": 0,
                         "size": "xxl",
-                        "offsetTop": "-5px"
+                        "offsetTop": "-5px",
+                        "decoration": "underline"
                       },
                       {
                         "type": "filler"
@@ -227,6 +229,9 @@
                         "layout": "vertical",
                         "contents": [
                           {
+                            "type": "filler"
+                          },
+                          {
                             "type": "image",
                             "url": "https://oity.sakura.ne.jp/hajikuma/images/oity_icon.png",
                             "aspectRatio": "1:1",
@@ -242,6 +247,9 @@
                             "aspectRatio": "3:4",
                             "size": "xl",
                             "aspectMode": "fit"
+                          },
+                          {
+                            "type": "filler"
                           }
                         ],
                         "paddingAll": "5px",
@@ -252,33 +260,43 @@
                         "layout": "vertical",
                         "contents": [
                           {
-                            "type": "spacer"
-                          },
-                          {
-                            "type": "separator"
-                          },
-                          {
-                            "type": "text",
-                            "color": "#ffffff",
-                            "size": "md",
-                            "flex": 0,
-                            "text": "在学生の学校生活を",
-                            "wrap": true,
-                            "weight": "bold",
-                            "align": "center"
-                          },
-                          {
-                            "type": "text",
-                            "color": "#ffffff",
-                            "size": "md",
-                            "flex": 0,
-                            "text": "サポートするBOTです。",
-                            "wrap": true,
-                            "weight": "bold",
-                            "align": "center"
-                          },
-                          {
-                            "type": "separator"
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "在学生の学校生活を",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "サポートするBOTです。",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ],
+                            "height": "70px"
                           },
                           {
                             "type": "box",
@@ -291,7 +309,7 @@
                                 "type": "text",
                                 "color": "#ffffff",
                                 "size": "md",
-                                "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。",
+                                "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。時刻表や天気予報を取得できます。",
                                 "wrap": true
                               },
                               {
@@ -321,29 +339,53 @@
                 "layout": "vertical",
                 "contents": [
                   {
-                    "type": "spacer",
-                    "size": "xxl"
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "md",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
                   },
                   {
                     "type": "text",
-                    "text": "Oity を使ってみる",
-                    "size": "xl",
-                    "weight": "bold",
-                    "align": "center",
-                    "gravity": "bottom",
-                    "color": "#ffffff"
+                    "text": "hello, world",
+                    "contents": [
+                      {
+                        "type": "span",
+                        "text": "PHP"
+                      },
+                      {
+                        "type": "span",
+                        "text": ", "
+                      },
+                      {
+                        "type": "span",
+                        "text": "Webスクレイピング"
+                      },
+                      {
+                        "type": "span",
+                        "text": ", "
+                      }
+                    ],
+                    "color": "#ffffff",
+                    "wrap": true,
+                    "offsetStart": "3px"
                   },
                   {
-                    "type": "spacer",
-                    "size": "xxl"
+                    "type": "text",
+                    "text": "LINE MessagingAPI, UIデザイン",
+                    "color": "#ffffff",
+                    "wrap": true,
+                    "offsetStart": "3px"
                   }
                 ],
-                "position": "relative",
-                "cornerRadius": "20px",
-                "backgroundColor": "#00b350",
-                "margin": "md",
-                "borderWidth": "3px",
-                "borderColor": "#009945"
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "md"
               }
             ],
             "position": "absolute",
@@ -354,7 +396,25 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Oity を使ってみる",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff"
+          }
+        ],
+        "backgroundColor": "#00b350",
+        "borderWidth": "5px",
+        "borderColor": "#009945"
       }
     }
   ]
