@@ -1,0 +1,361 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Work",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "size": "xxl",
+                        "decoration": "underline",
+                        "offsetTop": "-5px"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "backgroundColor": "#004d22cc",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "separator",
+                "margin": "xl",
+                "color": "#00000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "一覧",
+                    "color": "#ffffff",
+                    "size": "xxl",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "offsetTop": "md",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・Oity"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・オープンキャンパス企画"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・定期通知BOT"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・ポートフォリオ"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・芝先生"
+                  },
+                  {
+                    "type": "spacer",
+                    "size": "lg"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "separator",
+                "margin": "sm",
+                "color": "#00000000"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#78B994"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/canvas.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Oity",
+                        "color": "#ffffff",
+                        "flex": 0,
+                        "size": "xxl",
+                        "offsetTop": "-5px"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "backgroundColor": "#004d22cc",
+                "borderColor": "#00331755",
+                "borderWidth": "1px"
+              },
+              {
+                "type": "separator",
+                "margin": "xl",
+                "color": "#00000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity_icon.png",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "spacer"
+                          },
+                          {
+                            "type": "separator"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#ffffff",
+                            "size": "md",
+                            "flex": 0,
+                            "text": "在学生の学校生活を",
+                            "wrap": true,
+                            "weight": "bold",
+                            "align": "center"
+                          },
+                          {
+                            "type": "text",
+                            "color": "#ffffff",
+                            "size": "md",
+                            "flex": 0,
+                            "text": "サポートするBOTです。",
+                            "wrap": true,
+                            "weight": "bold",
+                            "align": "center"
+                          },
+                          {
+                            "type": "separator"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。",
+                                "wrap": true
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ],
+                            "height": "160px"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "height": "230px"
+              },
+              {
+                "type": "separator",
+                "margin": "sm",
+                "color": "#00000000"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer",
+                    "size": "xxl"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Oity を使ってみる",
+                    "size": "xl",
+                    "weight": "bold",
+                    "align": "center",
+                    "gravity": "bottom",
+                    "color": "#ffffff"
+                  },
+                  {
+                    "type": "spacer",
+                    "size": "xxl"
+                  }
+                ],
+                "position": "relative",
+                "cornerRadius": "20px",
+                "backgroundColor": "#00b350",
+                "margin": "md",
+                "borderWidth": "3px",
+                "borderColor": "#009945"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#78B994"
+      }
+    }
+  ]
+}
