@@ -1,9 +1,9 @@
 <?php
 session_start();
-$_SESSION["name"] = $_POST['user_name'];
-$_SESSION["mail"] = $_POST['user_email'];
-$_SESSION["title"] = $_POST['user_title'];
-$_SESSION["msg"] = $_POST['user_message'];
+if (!empty($_POST['user_name'])) $_SESSION["name"] = $_POST['user_name'];
+if (!empty($_POST['user_email'])) $_SESSION["mail"] = $_POST['user_email'];
+if (!empty($_POST['user_title'])) $_SESSION["title"] = $_POST['user_title'];
+if (!empty($_POST['user_message'])) $_SESSION["msg"] = $_POST['user_message'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
