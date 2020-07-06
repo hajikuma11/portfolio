@@ -96,6 +96,15 @@
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
+                    "text": "・reOity"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
                     "text": "・ポートフォリオ"
                   },
                   {
@@ -115,15 +124,6 @@
                     "offsetStart": "lg",
                     "margin": "md",
                     "text": "・オープンキャンパス企画"
-                  },
-                  {
-                    "type": "text",
-                    "color": "#ffffff",
-                    "size": "lg",
-                    "flex": 0,
-                    "offsetStart": "lg",
-                    "margin": "md",
-                    "text": "・芝先生"
                   },
                   {
                     "type": "spacer",
@@ -174,6 +174,542 @@
           "type": "uri",
           "label": "contact",
           "uri": "line://app/1654379362-eDlmal7V"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "Oity",
+                        "color": "#efffff",
+                        "flex": 0,
+                        "size": "xxl",
+                        "offsetTop": "-3px"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity_icon.png",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "在学生の学校生活を",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "サポート",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              }
+                            ],
+                            "spacing": "xs"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。時刻表や天気予報を取得できます。",
+                                "wrap": true,
+                                "gravity": "top"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "md"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "Webスクレイピング"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      },
+                      {
+                        "type": "text",
+                        "text": "LINE MessagingAPI, UIデザイン",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "sm"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Oity を使ってみる",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff",
+            "decoration": "underline"
+          }
+        ],
+        "backgroundColor": "#00b350",
+        "borderWidth": "5px",
+        "borderColor": "#009945",
+        "action": {
+          "type": "uri",
+          "label": "add Oity",
+          "uri": "https://lin.ee/vIty5Qj"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
+            "aspectMode": "cover",
+            "aspectRatio": "3:4",
+            "size": "full"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                      {
+                        "type": "filler"
+                      },
+                      {
+                        "type": "text",
+                        "text": "reOity",
+                        "color": "#efffff",
+                        "flex": 0,
+                        "size": "xxl",
+                        "offsetTop": "-3px"
+                      },
+                      {
+                        "type": "filler"
+                      }
+                    ],
+                    "spacing": "sm"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "cornerRadius": "4px",
+                "spacing": "sm",
+                "margin": "lg",
+                "height": "40px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "backgroundColor": "#7F3B00"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/reoity1.png",
+                            "aspectRatio": "1:1",
+                            "size": "xxl",
+                            "flex": 0,
+                            "aspectMode": "fit"
+                          },
+                          {
+                            "type": "image",
+                            "url": "https://oity.sakura.ne.jp/hajikuma/images/reoity2.png",
+                            "flex": 0,
+                            "margin": "sm",
+                            "aspectRatio": "3:4",
+                            "size": "xl",
+                            "aspectMode": "fit"
+                          }
+                        ],
+                        "paddingAll": "5px",
+                        "width": "100px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "Oityを",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "flex": 0,
+                                "text": "作り直しました",
+                                "wrap": true,
+                                "weight": "bold",
+                                "align": "center"
+                              },
+                              {
+                                "type": "separator"
+                              },
+                              {
+                                "type": "spacer",
+                                "size": "lg"
+                              }
+                            ],
+                            "spacing": "xs"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "filler"
+                              },
+                              {
+                                "type": "text",
+                                "color": "#ffffff",
+                                "size": "md",
+                                "text": "機能を厳選し、プログラムの最適化を行い、新しくデザインを作り直しました。",
+                                "wrap": true,
+                                "gravity": "top"
+                              },
+                              {
+                                "type": "filler"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "md"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "spacer"
+                  },
+                  {
+                    "type": "text",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "flex": 0,
+                    "text": "Skill",
+                    "wrap": true,
+                    "weight": "bold",
+                    "align": "center"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "hello, world",
+                        "contents": [
+                          {
+                            "type": "span",
+                            "text": "PHP"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "Webスクレイピング"
+                          },
+                          {
+                            "type": "span",
+                            "text": ", "
+                          }
+                        ],
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      },
+                      {
+                        "type": "text",
+                        "text": "LINE MessagingAPI, UIデザイン",
+                        "color": "#ffffff",
+                        "wrap": true,
+                        "offsetStart": "3px"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spacer"
+                  }
+                ],
+                "backgroundColor": "#004d22dd",
+                "cornerRadius": "4px",
+                "borderColor": "#00331755",
+                "borderWidth": "1px",
+                "margin": "sm"
+              }
+            ],
+            "position": "absolute",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingTop": "18px",
+            "paddingAll": "5px"
+          }
+        ],
+        "paddingAll": "0px",
+        "backgroundColor": "#CCAD7E"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "reOity を使ってみる",
+            "size": "xl",
+            "weight": "bold",
+            "align": "center",
+            "gravity": "bottom",
+            "color": "#ffffff",
+            "decoration": "underline"
+          }
+        ],
+        "backgroundColor": "#00b350",
+        "borderWidth": "5px",
+        "borderColor": "#009945",
+        "action": {
+          "type": "uri",
+          "label": "add reOity",
+          "uri": "https://lin.ee/O1L5KTR"
         }
       }
     },
@@ -446,274 +982,6 @@
           "type": "uri",
           "label": "action",
           "uri": "https://line.me/R/nv/recommendOA/@442cgniu"
-        }
-      }
-    },
-    {
-      "type": "bubble",
-      "size": "mega",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "filler"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                      {
-                        "type": "filler"
-                      },
-                      {
-                        "type": "text",
-                        "text": "Oity",
-                        "color": "#efffff",
-                        "flex": 0,
-                        "size": "xxl",
-                        "offsetTop": "-3px"
-                      },
-                      {
-                        "type": "filler"
-                      }
-                    ],
-                    "spacing": "sm"
-                  },
-                  {
-                    "type": "filler"
-                  }
-                ],
-                "cornerRadius": "4px",
-                "spacing": "sm",
-                "margin": "lg",
-                "height": "40px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                      {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [
-                          {
-                            "type": "image",
-                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity_icon.png",
-                            "aspectRatio": "1:1",
-                            "size": "xxl",
-                            "flex": 0,
-                            "aspectMode": "fit"
-                          },
-                          {
-                            "type": "image",
-                            "url": "https://oity.sakura.ne.jp/hajikuma/images/oity.png",
-                            "flex": 0,
-                            "margin": "sm",
-                            "aspectRatio": "3:4",
-                            "size": "xl",
-                            "aspectMode": "fit"
-                          }
-                        ],
-                        "paddingAll": "5px",
-                        "width": "100px"
-                      },
-                      {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [
-                          {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                              {
-                                "type": "spacer",
-                                "size": "lg"
-                              },
-                              {
-                                "type": "separator"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "flex": 0,
-                                "text": "在学生の学校生活を",
-                                "wrap": true,
-                                "weight": "bold",
-                                "align": "center"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "flex": 0,
-                                "text": "サポート",
-                                "wrap": true,
-                                "weight": "bold",
-                                "align": "center"
-                              },
-                              {
-                                "type": "separator"
-                              },
-                              {
-                                "type": "spacer",
-                                "size": "lg"
-                              }
-                            ],
-                            "spacing": "xs"
-                          },
-                          {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                              {
-                                "type": "filler"
-                              },
-                              {
-                                "type": "text",
-                                "color": "#ffffff",
-                                "size": "md",
-                                "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。時刻表や天気予報を取得できます。",
-                                "wrap": true,
-                                "gravity": "top"
-                              },
-                              {
-                                "type": "filler"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "margin": "md"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "spacer"
-                  },
-                  {
-                    "type": "text",
-                    "color": "#ffffff",
-                    "size": "lg",
-                    "flex": 0,
-                    "text": "Skill",
-                    "wrap": true,
-                    "weight": "bold",
-                    "align": "center"
-                  },
-                  {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [
-                      {
-                        "type": "text",
-                        "text": "hello, world",
-                        "contents": [
-                          {
-                            "type": "span",
-                            "text": "PHP"
-                          },
-                          {
-                            "type": "span",
-                            "text": ", "
-                          },
-                          {
-                            "type": "span",
-                            "text": "Webスクレイピング"
-                          },
-                          {
-                            "type": "span",
-                            "text": ", "
-                          }
-                        ],
-                        "color": "#ffffff",
-                        "wrap": true,
-                        "offsetStart": "3px"
-                      },
-                      {
-                        "type": "text",
-                        "text": "LINE MessagingAPI, UIデザイン",
-                        "color": "#ffffff",
-                        "wrap": true,
-                        "offsetStart": "3px"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "spacer"
-                  }
-                ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "margin": "sm"
-              }
-            ],
-            "position": "absolute",
-            "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "paddingTop": "18px",
-            "paddingAll": "5px"
-          }
-        ],
-        "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
-      },
-      "footer": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Oity を使ってみる",
-            "size": "xl",
-            "weight": "bold",
-            "align": "center",
-            "gravity": "bottom",
-            "color": "#ffffff",
-            "decoration": "underline"
-          }
-        ],
-        "backgroundColor": "#00b350",
-        "borderWidth": "5px",
-        "borderColor": "#009945",
-        "action": {
-          "type": "uri",
-          "label": "add Oity",
-          "uri": "https://lin.ee/vIty5Qj"
         }
       }
     },
