@@ -244,7 +244,7 @@
                   {
                     "type": "text",
                     "text": "基本情報技術者",
-                    "size": "lg",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
@@ -270,8 +270,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "PHP",
-                    "size": "lg",
+                    "text": "PHP : かなり",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
@@ -279,8 +279,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "C言語",
-                    "size": "lg",
+                    "text": "C言語 : けっこう",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
@@ -288,8 +288,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "JavaScript",
-                    "size": "lg",
+                    "text": "Java : けっこう",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
@@ -297,8 +297,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "Python",
-                    "size": "lg",
+                    "text": "Python : 普通",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
@@ -306,8 +306,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "Go",
-                    "size": "lg",
+                    "text": "Go : ちょっと",
+                    "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
