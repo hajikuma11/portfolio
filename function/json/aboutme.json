@@ -219,13 +219,6 @@
         "layout": "vertical",
         "contents": [
           {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/image/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
-          {
             "type": "box",
             "layout": "vertical",
             "contents": [
@@ -241,7 +234,7 @@
                   {
                     "type": "text",
                     "text": "保有資格",
-                    "color": "#ffffff",
+                    "color": "#000033",
                     "size": "xxl",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -251,7 +244,6 @@
                   {
                     "type": "text",
                     "text": "基本情報技術者",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -261,7 +253,6 @@
                   {
                     "type": "text",
                     "text": "ITパスポート",
-                    "color": "#ffffff",
                     "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -269,8 +260,8 @@
                   },
                   {
                     "type": "text",
-                    "text": "使用可能な言語",
-                    "color": "#ffffff",
+                    "text": "使える言語",
+                    "color": "#000033",
                     "size": "xxl",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -280,7 +271,6 @@
                   {
                     "type": "text",
                     "text": "PHP",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -290,7 +280,6 @@
                   {
                     "type": "text",
                     "text": "C言語",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -300,7 +289,6 @@
                   {
                     "type": "text",
                     "text": "JavaScript",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -310,7 +298,6 @@
                   {
                     "type": "text",
                     "text": "Python",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -319,8 +306,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "Perl",
-                    "color": "#ffffff",
+                    "text": "Go",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -332,10 +318,9 @@
                     "size": "lg"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "paddingAll": "5px"
               },
               {
@@ -349,7 +334,7 @@
                 "contents": [
                   {
                     "type": "spacer",
-                    "size": "xxl"
+                    "size": "lg"
                   },
                   {
                     "type": "text",
@@ -362,7 +347,7 @@
                   },
                   {
                     "type": "spacer",
-                    "size": "xxl"
+                    "size": "lg"
                   }
                 ],
                 "position": "relative",
@@ -378,14 +363,11 @@
                 }
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
-            "offsetEnd": "0px",
-            "paddingTop": "18px"
+            "offsetEnd": "0px"
           }
         ],
-        "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#F4F5F7"
       }
     }
   ]
