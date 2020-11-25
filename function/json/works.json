@@ -9,13 +9,6 @@
         "layout": "vertical",
         "contents": [
           {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
-          {
             "type": "box",
             "layout": "vertical",
             "contents": [
@@ -35,8 +28,8 @@
                       },
                       {
                         "type": "text",
-                        "text": "作品",
-                        "color": "#efffff",
+                        "text": "成果物",
+                        "color": "#F4F5F7",
                         "flex": 0,
                         "size": "xxl",
                         "decoration": "underline",
@@ -59,7 +52,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "separator",
@@ -73,68 +66,66 @@
                   {
                     "type": "text",
                     "text": "作品一覧",
-                    "color": "#ffffff",
                     "size": "xxl",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
+                    "weight": "bold",
+                    "color": "#000033"
+                  },
+                  {
+                    "type": "text",
+                    "size": "lg",
+                    "flex": 0,
+                    "offsetStart": "lg",
+                    "margin": "md",
+                    "text": "・Oity",
                     "weight": "bold"
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・Oity"
+                    "text": "・reOity",
+                    "weight": "bold"
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・reOity"
+                    "text": "・ポートフォリオ",
+                    "weight": "bold"
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・ポートフォリオ"
+                    "text": "・定期通知BOT",
+                    "weight": "bold"
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
                     "margin": "md",
-                    "text": "・定期通知BOT"
-                  },
-                  {
-                    "type": "text",
-                    "color": "#ffffff",
-                    "size": "lg",
-                    "flex": 0,
-                    "offsetStart": "lg",
-                    "margin": "md",
-                    "text": "・オープンキャンパス企画"
+                    "text": "・オープンキャンパス企画",
+                    "weight": "bold"
                   },
                   {
                     "type": "spacer",
                     "size": "lg"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
-                "height": "230px"
+                "borderColor": "#00b350",
+                "borderWidth": "3px"
               },
               {
                 "type": "separator",
@@ -142,7 +133,6 @@
                 "color": "#00000000"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -150,7 +140,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       },
       "footer": {
         "type": "box",
@@ -176,21 +166,13 @@
           "uri": "line://app/1654379362-eDlmal7V"
         }
       }
-    },
-    {
+    },{
       "type": "bubble",
       "size": "mega",
       "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -212,7 +194,7 @@
                       {
                         "type": "text",
                         "text": "Oity",
-                        "color": "#efffff",
+                        "color": "#F4F5F7",
                         "flex": 0,
                         "size": "xxl",
                         "offsetTop": "-3px"
@@ -233,7 +215,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "box",
@@ -285,7 +267,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "在学生の学校生活を",
@@ -295,7 +277,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "サポート",
@@ -322,7 +304,6 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
                                 "text": "指定した情報を取得して表示してくれるので、様々なアプリやサイトに移動し情報を見る煩わしさを解消してくれます。時刻表や天気予報を取得できます。",
                                 "wrap": true,
@@ -335,13 +316,12 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "borderWidth": "3px",
+                    "borderColor": "#00b350",
+                    "cornerRadius": "4px"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
                 "margin": "md"
               },
               {
@@ -353,7 +333,7 @@
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
+                    "color": "#000033",
                     "size": "lg",
                     "flex": 0,
                     "text": "Skill",
@@ -386,14 +366,12 @@
                             "text": ", "
                           }
                         ],
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       },
                       {
                         "type": "text",
                         "text": "LINE MessagingAPI, UIデザイン",
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       }
@@ -403,14 +381,12 @@
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "margin": "sm"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -418,23 +394,15 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       }
-    },
-    {
+    },{
       "type": "bubble",
       "size": "mega",
       "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -456,7 +424,7 @@
                       {
                         "type": "text",
                         "text": "reOity",
-                        "color": "#efffff",
+                        "color": "#F4F5F7",
                         "flex": 0,
                         "size": "xxl",
                         "offsetTop": "-3px"
@@ -477,7 +445,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "box",
@@ -529,7 +497,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "Oityを",
@@ -539,7 +507,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "作り直しました",
@@ -566,9 +534,8 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
-                                "text": "機能を厳選し、プログラムの最適化を行い、新しくデザインを作り直しました。",
+                                "text": "機能を厳選し、プログラムの最適化を行い、デザインを刷新しました。正規表現を使っているので文字認識精度も上がっています。",
                                 "wrap": true,
                                 "gravity": "top"
                               },
@@ -579,13 +546,12 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "borderWidth": "3px",
+                    "borderColor": "#00b350",
+                    "cornerRadius": "4px"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
                 "margin": "md"
               },
               {
@@ -597,7 +563,7 @@
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
+                    "color": "#000033",
                     "size": "lg",
                     "flex": 0,
                     "text": "Skill",
@@ -628,16 +594,18 @@
                           {
                             "type": "span",
                             "text": ", "
+                          },
+                          {
+                            "type": "span",
+                            "text": "正規表現"
                           }
                         ],
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       },
                       {
                         "type": "text",
                         "text": "LINE MessagingAPI, UIデザイン",
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       }
@@ -647,14 +615,12 @@
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "margin": "sm"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -662,7 +628,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       },
       "footer": {
         "type": "box",
@@ -688,21 +654,13 @@
           "uri": "https://lin.ee/O1L5KTR"
         }
       }
-    },
-    {
+    },{
       "type": "bubble",
       "size": "mega",
       "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -745,7 +703,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "box",
@@ -797,7 +755,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "自分を",
@@ -807,10 +765,10 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
-                                "text": "知ってもらう",
+                                "text": "知ってもらおう",
                                 "wrap": true,
                                 "weight": "bold",
                                 "align": "center"
@@ -834,7 +792,6 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
                                 "text": "LINEを持っている人なら見ることができ、他の人にオススメすることもできるので、LINEでポートフォリオを作ってみました。",
                                 "wrap": true,
@@ -847,13 +804,12 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "borderWidth": "3px",
+                    "borderColor": "#00b350",
+                    "cornerRadius": "4px"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
                 "margin": "md"
               },
               {
@@ -865,7 +821,7 @@
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
+                    "color": "#000033",
                     "size": "lg",
                     "flex": 0,
                     "text": "Skill",
@@ -899,17 +855,15 @@
                           },
                           {
                             "type": "span",
-                            "text": "LINE Notify"
+                            "text": "LINE Notify API"
                           }
                         ],
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       },
                       {
                         "type": "text",
-                        "text": "LINE MessagingAPI",
-                        "color": "#ffffff",
+                        "text": "LINE Messaging API",
                         "wrap": true,
                         "offsetStart": "3px"
                       }
@@ -919,14 +873,12 @@
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "margin": "sm"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -934,7 +886,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       },
       "footer": {
         "type": "box",
@@ -960,21 +912,13 @@
           "uri": "https://line.me/R/nv/recommendOA/@442cgniu"
         }
       }
-    },
-    {
+    },{
       "type": "bubble",
       "size": "mega",
       "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -1017,7 +961,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "box",
@@ -1069,23 +1013,23 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "忘れた頃に",
                                 "wrap": true,
                                 "weight": "bold",
-                                "align": "center"
+                                "align": "center",
+                                "color": "#000033"
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "通知が届く",
                                 "wrap": true,
                                 "weight": "bold",
-                                "align": "center"
+                                "align": "center",
+                                "color": "#000033"
                               },
                               {
                                 "type": "separator"
@@ -1106,9 +1050,8 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
-                                "text": "コロナの影響で授業の特設情報サイトができたが、サイトが更新されても通知がなかったため作成したBOT。",
+                                "text": "コロナの影響で授業の特設情報サイトができたが、サイトが更新されても通知がこなかったため、逐一確認するのも面倒だと作成した。",
                                 "wrap": true,
                                 "gravity": "top"
                               },
@@ -1119,13 +1062,12 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "cornerRadius": "4px",
+                    "borderWidth": "3px",
+                    "borderColor": "#00b350"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
                 "margin": "md"
               },
               {
@@ -1137,13 +1079,13 @@
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "text": "Skill",
                     "wrap": true,
                     "weight": "bold",
-                    "align": "center"
+                    "align": "center",
+                    "color": "#000033"
                   },
                   {
                     "type": "box",
@@ -1166,14 +1108,12 @@
                             "text": "IFTTT"
                           }
                         ],
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       },
                       {
                         "type": "text",
                         "text": "JavaScript, Webスクレイピング",
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       }
@@ -1183,14 +1123,12 @@
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "margin": "sm"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -1198,7 +1136,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       },
       "footer": {
         "type": "box",
@@ -1224,21 +1162,13 @@
           "uri": "https://twitter.com/Oity_OIT"
         }
       }
-    },
-    {
+    },{
       "type": "bubble",
       "size": "mega",
       "body": {
         "type": "box",
         "layout": "vertical",
         "contents": [
-          {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/hajikuma/images/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
           {
             "type": "box",
             "layout": "vertical",
@@ -1281,7 +1211,7 @@
                 "height": "40px",
                 "borderColor": "#00331755",
                 "borderWidth": "1px",
-                "backgroundColor": "#7F3B00"
+                "backgroundColor": "#00b350"
               },
               {
                 "type": "box",
@@ -1333,7 +1263,7 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
                                 "text": "シンプルで",
@@ -1343,10 +1273,10 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
+                                "color": "#000033",
                                 "size": "md",
                                 "flex": 0,
-                                "text": "楽しい",
+                                "text": "楽しめる企画",
                                 "wrap": true,
                                 "weight": "bold",
                                 "align": "center"
@@ -1370,7 +1300,6 @@
                               },
                               {
                                 "type": "text",
-                                "color": "#ffffff",
                                 "size": "md",
                                 "text": "オープンキャンパスのクイズ企画のために作成したBOTです。時間によって違うクイズのヒントを表示してくれます。６００人以上の方に利用していただきました。",
                                 "wrap": true,
@@ -1383,13 +1312,12 @@
                           }
                         ]
                       }
-                    ]
+                    ],
+                    "cornerRadius": "4px",
+                    "borderWidth": "3px",
+                    "borderColor": "#00b350"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
-                "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
                 "margin": "md"
               },
               {
@@ -1401,7 +1329,7 @@
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
+                    "color": "#000033",
                     "size": "lg",
                     "flex": 0,
                     "text": "Skill",
@@ -1427,21 +1355,19 @@
                           },
                           {
                             "type": "span",
-                            "text": "LINE MessagingAPI"
+                            "text": "LINE Messaging API"
                           },
                           {
                             "type": "span",
                             "text": ", "
                           }
                         ],
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       },
                       {
                         "type": "text",
                         "text": "UIデザイン",
-                        "color": "#ffffff",
                         "wrap": true,
                         "offsetStart": "3px"
                       }
@@ -1451,14 +1377,12 @@
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px",
+                "borderColor": "#00b350",
+                "borderWidth": "3px",
                 "margin": "sm"
               }
             ],
-            "position": "absolute",
             "offsetStart": "0px",
             "offsetEnd": "0px",
             "paddingTop": "18px",
@@ -1466,7 +1390,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#CCAD7E"
+        "backgroundColor": "#F4F5F7"
       },
       "footer": {
         "type": "box",
