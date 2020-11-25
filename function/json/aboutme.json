@@ -9,13 +9,6 @@
         "layout": "vertical",
         "contents": [
           {
-            "type": "image",
-            "url": "https://oity.sakura.ne.jp/image/beta.jpg",
-            "aspectMode": "cover",
-            "aspectRatio": "3:4",
-            "size": "full"
-          },
-          {
             "type": "box",
             "layout": "vertical",
             "contents": [
@@ -36,7 +29,7 @@
                       {
                         "type": "text",
                         "text": "About me",
-                        "color": "#ffffff",
+                        "color": "#F4F5F7",
                         "flex": 0,
                         "size": "xxl",
                         "decoration": "underline",
@@ -52,11 +45,10 @@
                     "type": "filler"
                   }
                 ],
-                "cornerRadius": "4px",
                 "spacing": "sm",
                 "margin": "lg",
                 "height": "40px",
-                "backgroundColor": "#7F3B00",
+                "backgroundColor": "#00b350",
                 "borderColor": "#00331755",
                 "borderWidth": "1px"
               },
@@ -72,17 +64,16 @@
                   {
                     "type": "text",
                     "text": "松井 元",
-                    "color": "#ffffff",
                     "size": "xxl",
                     "flex": 0,
                     "offsetStart": "lg",
                     "offsetTop": "md",
-                    "weight": "bold"
+                    "weight": "bold",
+                    "color": "#000033"
                   },
                   {
                     "type": "text",
                     "text": "大阪工業大学情報科学部",
-                    "color": "#ffffff",
                     "size": "lg",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -91,7 +82,6 @@
                   {
                     "type": "text",
                     "text": "情報ネットワーク学科",
-                    "color": "#ffffff",
                     "size": "md",
                     "flex": 0,
                     "offsetStart": "lg",
@@ -102,10 +92,9 @@
                     "size": "lg"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderColor": "#00331755",
-                "borderWidth": "1px"
+                "borderColor": "#00b350",
+                "borderWidth": "3px"
               },
               {
                 "type": "separator",
@@ -121,22 +110,38 @@
                     "size": "lg"
                   },
                   {
-                    "type": "text",
-                    "text": "中学生の時にあるゲームをきっかけに",
-                    "color": "#ffffff",
-                    "size": "md",
-                    "flex": 0,
-                    "wrap": true,
-                    "offsetStart": "sm"
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "Minecraft",
+                        "color": "#000033",
+                        "size": "md",
+                        "flex": 0,
+                        "wrap": true,
+                        "weight": "bold"
+                      },
+                      {
+                        "type": "text",
+                        "text": "がきっかけで",
+                        "size": "md",
+                        "flex": 0,
+                        "wrap": true,
+                        "weight": "bold",
+                        "offsetStart": "md",
+                        "color": "#000033"
+                      }
+                    ],
+                    "offsetStart": "lg"
                   },
                   {
                     "type": "text",
                     "text": "プログラミングに興味を持つ。",
-                    "color": "#ffffff",
                     "size": "md",
                     "flex": 0,
                     "wrap": true,
-                    "offsetStart": "sm"
+                    "offsetStart": "xl"
                   },
                   {
                     "type": "separator",
@@ -145,21 +150,21 @@
                   },
                   {
                     "type": "text",
-                    "text": "サポートシステムなどの",
-                    "color": "#ffffff",
-                    "size": "lg",
+                    "text": "人の役に立つモノを作りたい！",
+                    "size": "md",
                     "flex": 0,
                     "wrap": true,
-                    "offsetStart": "sm"
+                    "offsetStart": "lg",
+                    "weight": "bold",
+                    "color": "#000033"
                   },
                   {
                     "type": "text",
-                    "text": "様々なBOTを開発。",
-                    "color": "#ffffff",
-                    "size": "lg",
+                    "text": "と色々なボットを開発。",
+                    "size": "md",
                     "flex": 0,
                     "wrap": true,
-                    "offsetStart": "sm"
+                    "offsetStart": "xl"
                   },
                   {
                     "type": "separator",
@@ -168,35 +173,31 @@
                   },
                   {
                     "type": "text",
-                    "text": "散歩と写真撮影が趣味で、",
-                    "color": "#ffffff",
-                    "size": "lg",
+                    "text": "散歩と写真撮影が趣味",
+                    "size": "md",
                     "flex": 0,
                     "wrap": true,
-                    "offsetStart": "sm"
+                    "offsetStart": "lg",
+                    "color": "#000033",
+                    "weight": "bold"
                   },
                   {
                     "type": "text",
-                    "color": "#ffffff",
-                    "size": "lg",
-                    "flex": 0,
-                    "wrap": true,
-                    "offsetStart": "sm",
-                    "contents": [
-                      {
-                        "type": "span",
-                        "text": "カメラ片手に散歩をする事が好き。"
-                      }
-                    ]
+                    "text": "散歩中に小さな発見をして、",
+                    "offsetStart": "xl"
+                  },
+                  {
+                    "type": "text",
+                    "text": "それを写真に収めるのが好き",
+                    "offsetStart": "xl"
                   },
                   {
                     "type": "spacer"
                   }
                 ],
-                "backgroundColor": "#004d22dd",
                 "cornerRadius": "4px",
-                "borderWidth": "1px",
-                "borderColor": "#00331755"
+                "borderWidth": "3px",
+                "borderColor": "#00b350"
               }
             ],
             "position": "absolute",
@@ -207,7 +208,7 @@
           }
         ],
         "paddingAll": "0px",
-        "backgroundColor": "#78B994"
+        "backgroundColor": "#F4F5F7"
       }
     },
     {
